@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Chyroc/base64-bagua"
+	"github.com/Chyroc/base8-bagua"
 )
 
 var decode bool
@@ -15,7 +15,7 @@ var helpText = `NAME
      base8-bagua -- Encode and decode using Base8-Bagua representation
 
 SYNOPSIS
-     base64 [-D|-h]
+     base8-bagua [-D|-h]
 `
 
 func init() {
